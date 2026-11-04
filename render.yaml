@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: vilight-longsys
+    runtime: python
+    plan: free
+    startCommand: python server.py
